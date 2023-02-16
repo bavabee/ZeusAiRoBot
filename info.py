@@ -68,5 +68,5 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 SHORTENER = environ.get('SHORTENER', "sharelink.live")
 SHORTENER_API = environ.get('SHORTENER_API', "dd0876a9cbb8d905b3a75f1d894f98a951f0a095")
-HOW_TO_DOWNLOAD = environ.get('HOW_TO_DOWNLOAD', "t.me/HMF_LinkZ")
+H_DOWNLOAD_LINK = environ.get('HOW_TO_DOWNLOAD', "t.me/HMF_LinkZ")
 
