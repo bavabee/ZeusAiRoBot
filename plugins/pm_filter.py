@@ -362,7 +362,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await client.send_photo(chat_id=query.from_user.id, photo='https://telegra.ph/file/3f2ff459b9d316133d1c8.jpg', caption = f"<b>📕𝗡ᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗𝗦ɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
+                await client.send_photo(chat_id=query.from_user.id, photo='https://telegra.ph/file/1146321c315b4b1db8bc2.jpg', caption = f"<b>📕𝗡ᴀᴍᴇ ➠ : [HMF LinkZ] <code>{files.file_name}</code> \n\n🔗𝗦ɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -411,7 +411,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Movie Request', url='https://t.me/AMD_Discussion')
+            InlineKeyboardButton('➕ Aᴅᴅ  Mᴇ  Tᴏ  Yᴏᴜʀ  Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ], [
+            InlineKeyboardButton('🚨 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+KGPFdDttfQ9hMjJl'),
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/HMF_BotzZ')
+        ], [
+            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -439,7 +445,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Movie Request', url='https://t.me/AMD_Discussion'),
+            InlineKeyboardButton('Movie Request', url='https://t.me/+KGPFdDttfQ9hMjJl'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
