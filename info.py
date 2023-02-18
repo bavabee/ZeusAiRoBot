@@ -73,6 +73,6 @@ if SELF_DELETE == "True":
 #Shortener
 
 SHORTENER = environ.get('SHORTENER', "sharelink.live")
-SHORTENER_API = environ.get('SHORTENER_API', "dd0876a9cbb8d905b3a75f1d894f98a951f0a095")
+SHORTENER_API = environ.get('SHORTENER_API', "100072b4021b9a7628c1c663468376544c5a5760")
 H_DOWNLOAD_LINK = environ.get('HOW_TO_DOWNLOAD', "https://t.me/How_To_Download_Any_Shorten/2")
 
