@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('Movie Request', url='https://t.me/+KGPFdDttfQ9hMjJl')
+                InlineKeyboardButton('Movie Request', url='https://t.me/movieplanteRk')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ  Mᴇ  Tᴏ  Yᴏᴜʀ  Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🚨 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+KGPFdDttfQ9hMjJl'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/HMF_BotzZ')
+            InlineKeyboardButton('🚨 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/movieplanteRk'),
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/+p9beQPfE8g0yMjI9')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
@@ -90,8 +90,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ  Mᴇ  Tᴏ  Yᴏᴜʀ  Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🚨 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+KGPFdDttfQ9hMjJl'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/HMF_BotzZ')
+            InlineKeyboardButton('🚨 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/movieplanteRk'),
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/+p9beQPfE8g0yMjI9')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
