@@ -362,7 +362,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 g = short_url(f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await client.send_photo(chat_id=query.from_user.id, photo='https://telegra.ph/file/1146321c315b4b1db8bc2.jpg', caption = f"<b>📕𝗡ᴀᴍᴇ ➠ : [HMF LinkZ] <code>{files.file_name}</code> \n\n🔗𝗦ɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
+                await client.send_photo(chat_id=query.from_user.id, photo='https://telegra.ph/file/1146321c315b4b1db8bc2.jpg', caption = f"<b>📕𝗡ᴀᴍᴇ ➠ : [MoviePlanteRk] <code>{files.file_name}</code> \n\n🔗𝗦ɪᴢᴇ ➠ : {get_size(files.file_size)}</b>", 
                                           reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -413,8 +413,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ  Mᴇ  Tᴏ  Yᴏᴜʀ  Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🚨 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+KGPFdDttfQ9hMjJl'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/HMF_BotzZ')
+            InlineKeyboardButton('🚨 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/movieplanteRk'),
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/+p9beQPfE8g0yMjI9')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
@@ -445,7 +445,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Movie Request', url='https://t.me/+KGPFdDttfQ9hMjJl'),
+            InlineKeyboardButton('Movie Request', url='https://t.me/movieplanteRk'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -715,7 +715,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b> Ꮋᴇʟʟᴏ 👋 {message.from_user.mention} 📕 𝗬ᴏᴜʀ 𝗥ᴇϙ 𝗠ᴏᴠɪᴇ :</b><code>{search}</code> \n\n<i>This Message Will be Deleted in 5 Minutes </i> \n\n<b>♻️ Ꮲᴏᴡᴇʀᴇᴅ Ᏼʏ ♻️</b> @HMF_LinkZ"
+        cap = f"<b> Ꮋᴇʟʟᴏ 👋 {message.from_user.mention} 📕 𝗬ᴏᴜʀ 𝗥ᴇϙ 𝗠ᴏᴠɪᴇ :</b><code>{search}</code> \n\n<i>This Message Will be Deleted in 5 Minutes </i> \n\n<b>♻️ Ꮲᴏᴡᴇʀᴇᴅ Ᏼʏ ♻️</b> @MoviePlanteRk"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
